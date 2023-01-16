@@ -40,6 +40,27 @@ terraform apply
 
 ![Capture d’écran 2023-01-16 à 09 29 55](https://user-images.githubusercontent.com/62488871/212632239-455bc029-04cd-4718-94ff-4d4a5ee63376.png)
 
+5. Create EC2 instance
+
+![Capture d’écran 2023-01-16 à 17 05 56](https://user-images.githubusercontent.com/62488871/212721937-6cb3609e-4e62-45b7-b10f-3e95f8d05ea6.png)
+
+![Capture d’écran 2023-01-16 à 17 06 05](https://user-images.githubusercontent.com/62488871/212721975-1b80c87c-b969-4825-a370-3229d16a4b8a.png)
+
+![Capture d’écran 2023-01-16 à 17 06 30](https://user-images.githubusercontent.com/62488871/212722005-51996362-2815-4ffc-a278-d90fc48bedf4.png)
+
+6. Script setup of server - docker nginx installations and running. Check that can access from browser
+
+![Capture d’écran 2023-01-16 à 17 45 56](https://user-images.githubusercontent.com/62488871/212729659-11c6bdd0-723c-4bc9-bbbd-7919d547386c.png)
+
+![Capture d’écran 2023-01-16 à 17 46 03](https://user-images.githubusercontent.com/62488871/212729684-61463f54-78cc-491f-afc2-5f286fc8fd26.png)
+
+<img width="715" alt="Capture d’écran 2023-01-16 à 17 40 26" src="https://user-images.githubusercontent.com/62488871/212729720-b4999556-3630-485b-a5e8-653e55924140.png">
+
+
+
+
+
+
 
 
 
