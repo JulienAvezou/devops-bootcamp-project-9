@@ -7,3 +7,6 @@
 
 # tf vars files
 *.tfvars
+
+# ignore crash logs
+crash.log
