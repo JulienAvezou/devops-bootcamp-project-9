@@ -86,8 +86,12 @@ B) Modules
 
 ![Capture d’écran 2023-01-17 à 18 26 20](https://user-images.githubusercontent.com/62488871/212969539-8faa712a-6931-4a96-a6db-d374e909ca3b.png)
 
-5. Run terraform init, then apply the changes and check that resources are created properly
+5. Run terraform init, then terraform plan to check for errors, then apply the changes and check that resources are created properly
 
 ![Capture d’écran 2023-01-17 à 18 31 04](https://user-images.githubusercontent.com/62488871/212970528-fdec737c-7506-4375-998a-429d5cd41548.png)
 
 ![Capture d’écran 2023-01-17 à 18 31 27](https://user-images.githubusercontent.com/62488871/212970564-77d4086f-de88-4969-a6d7-d04d34153c19.png)
+
+6. Repeat above steps for additional modules you want to create, example 'webserver'
+
+-----
