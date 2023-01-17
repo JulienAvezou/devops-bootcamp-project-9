@@ -1,6 +1,8 @@
 # devops-bootcamp-project-9
 Demo for module 12 - Terraform
 
+A) Automate provisioning EC2
+
 1. Create vpc & subnet 
 
 ![Capture d’écran 2023-01-16 à 08 46 46](https://user-images.githubusercontent.com/62488871/212624377-96950122-188a-4b3b-99a7-6353b298993d.png)
@@ -56,15 +58,36 @@ terraform apply
 
 <img width="715" alt="Capture d’écran 2023-01-16 à 17 40 26" src="https://user-images.githubusercontent.com/62488871/212729720-b4999556-3630-485b-a5e8-653e55924140.png">
 
+-----
 
+B) Modules
 
+1. Create folder structure for modules
 
+- root module with resources, outputs, variables and providers living in their own separate files + child modules living in the modules folder > own folder also with their own resources, outputs, variables and providers files
 
+![Capture d’écran 2023-01-17 à 18 12 00](https://user-images.githubusercontent.com/62488871/212966997-3eb3d975-2e05-4339-b401-b1d931ce0390.png)
 
+2. Group all resources into logical units - for example 'subnet' related
 
+![Capture d’écran 2023-01-17 à 18 18 30](https://user-images.githubusercontent.com/62488871/212968603-348ca146-e538-4f1a-b7f7-83461128a65a.png)
 
+- can then import and use module by referencing that module in other modules
 
+3. Use variables as inputs
 
+![Capture d’écran 2023-01-17 à 18 18 45](https://user-images.githubusercontent.com/62488871/212968821-255977bc-c9e7-4abb-8808-b61caf31dd6e.png)
 
+![Capture d’écran 2023-01-17 à 18 19 03](https://user-images.githubusercontent.com/62488871/212968854-a7555b5e-063b-4dca-a51d-c177a78b0e18.png)
 
+4. Use values as outputs
 
+![Capture d’écran 2023-01-17 à 18 25 47](https://user-images.githubusercontent.com/62488871/212969495-74a0a190-8b3f-4115-b948-58d3fb0fb893.png)
+
+![Capture d’écran 2023-01-17 à 18 26 20](https://user-images.githubusercontent.com/62488871/212969539-8faa712a-6931-4a96-a6db-d374e909ca3b.png)
+
+5. Apply the changes and check that resources are created properly
+
+![Capture d’écran 2023-01-17 à 18 31 04](https://user-images.githubusercontent.com/62488871/212970528-fdec737c-7506-4375-998a-429d5cd41548.png)
+
+![Capture d’écran 2023-01-17 à 18 31 27](https://user-images.githubusercontent.com/62488871/212970564-77d4086f-de88-4969-a6d7-d04d34153c19.png)
